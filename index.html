@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+  <body>
+    <div class="message" id="xWinMessage">
+      X WINS!<br>
+      <div id="replay">
+        REPLAY?
+      </div>
+    </div>
+    <div class="message" id="oWinMessage">
+      O WINS!<br>
+      <div id="replay">
+        REPLAY?
+      </div>
+    </div>
+      <div class="main banner">
+        TIC TAC <em>TOE</em>
+        <div class="main" id="playerTurn">
+        </div>
+      </div>
+      <div class="scoreBoard main">
+        <table>
+          <tr>
+            <th>Player 1</th>
+            <th>Player 2</th>
+          </tr>
+          <tr>
+            <td class ="scoreX"></td>
+            <td class ="scoreO"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="mainBoard main" id="mainBoard">
+      <div id="leftCol">
+        <div id="1" class="boxes">
+        </div>
+        <div id="4" class="boxes">
+        </div>
+        <div id="7" class="boxes">
+        </div>
+      </div>
+      <div id="midCol">
+        <div id="2" class="boxes">
+        </div>
+        <div id="5" class="boxes">
+        </div>
+        <div id="8" class="boxes">
+        </div>
+      </div>
+      <div id="rightCol">
+        <div id="3" class="boxes" value='1'>
+        </div>
+        <div id="6" class="boxes">
+        </div>
+        <div id="9" class="boxes">
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+.mainBoard {
+  width: 420px;
+  height: 420px;
+  background-image: url("tictoe.png");
+  position: absolute;
+  background-color: rgba(255, 210, 70, .7);
+  top: 20%;
+  left: 33%;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 256px;
+}
+
+body {
+  /*background-image: linear-gradient(90deg, #FF7575, #650070);*/
+  background-image: url('background.jpg');
+  font-family: 'VT323';
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 128px;
+}
+.boxes {
+  width:140px;
+  height:140px;
+}
+#rightCol {
+  float: right;
+}
+#midCol {
+  float: left;
+}
+#leftCol {
+  float:left;
+}
+img {
+position: absolute;
+width: 140px;
+height: 140px;
+}
+
+th {
+  font-size: 32px;
+  border-bottom: white solid 5px;
+  height: 50px;
+}
+td {
+  font-size: 48px;
+  text-align: center;
+  height: 50px;
+}
+
+.message {
+  position: absolute;
+  margin-left: 30%;
+  height: 200px;
+  font-size: 256px;
+}
+#replay {
+  font-size: 128px;
+  text-align: center;
+  background-color: rgba(255, 210, 70, .5);
+}
+.banner {
+  text-align: center;
+  font-size: 128px;
+}
+#playerTurn {
+  font-size: 64px;
+}
