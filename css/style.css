@@ -26,7 +26,6 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
 h1 {
   text-align: center;
   font-size: 128px;
@@ -49,7 +48,6 @@ position: absolute;
 width: 140px;
 height: 140px;
 }
-
 th {
   font-size: 32px;
   border-bottom: white solid 5px;
@@ -60,7 +58,6 @@ td {
   text-align: center;
   height: 50px;
 }
-
 .message {
   position: absolute;
   margin-left: 30%;

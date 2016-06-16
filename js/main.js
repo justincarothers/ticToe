@@ -27,7 +27,6 @@ function checkForWin() {
   else if ($("#3").hasClass("O") && $("#5").hasClass("O") && $("#7").hasClass("O")) { oWins = true; }
   else if ($("#1").hasClass("O") && $("#5").hasClass("O") && $("#9").hasClass("O")) { oWins = true; }
 }
-
   function endGame() {
     for (var i = 1; i < 9; i++) {
       $("#" + [i]).removeClass("X");
@@ -38,14 +37,10 @@ function checkForWin() {
     oWins=false;
     count=0;
     $(".message").hide();
-
   }
-
   function writeTurn() {
     $("#playerTurn").text(playerTurn + " has next move!")
   }
-
-
 $(document).ready(function() {
   $(".message").hide(); //hide message initially
   $(".scoreX").text(xScore);
